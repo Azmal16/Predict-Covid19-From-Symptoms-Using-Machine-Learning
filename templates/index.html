@@ -12,11 +12,17 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
   <style>
+    h3.round2 {
+      border: 2px solid #08518a;
+      border-radius: 10px;
+      margin: 0px 20px 0px 20px;
+    }
+
     body {
       background-image: url("https://images.unsplash.com/photo-1582795003154-35736cf26353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
       background-color: #cccccc;
-      background-repeat: repeat;
       margin: auto;
+      background-repeat: repeat;
 
 
 
@@ -66,10 +72,10 @@
     <p style="font-size:130%;">Welcome to Covid Symptoms Checker! <br> We will ask you a few questions about the
       Symptoms you
       are facing and give you
-      a percentage of your possibility of being infected by Covid using Machine Learning.</p>
+      a percentage using Machine Learning of your possibility of being infected by Covid-19.</p>
 
     <div>
-      <h3 style="color:#08518a">{{ prediction_text }}</h3>
+      <h3 style="color:#08518a" class="round2">{{ prediction_text }}</h3>
 
     </div>
 
